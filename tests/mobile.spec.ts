@@ -1,4 +1,4 @@
-import { test, expect, devices } from '@playwright/test';
+import { test, expect,devices} from '@playwright/test';
 
 test('mobile Automation', async ({ browser }) => {
     const context = await browser.newContext({ ...devices['iPhone 13 Pro Max'] });
